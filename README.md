@@ -6,3 +6,5 @@ you will need to dump the game to get the offset functions however
 
 FOR PC: you can use il2cpp dumper here https://github.com/Perfare/Il2CppDumper
 FOR MOBILE: https://il2cppdumper.com/ 
+
+also becareful because cubicgames is starting to tackle mod menu videos
