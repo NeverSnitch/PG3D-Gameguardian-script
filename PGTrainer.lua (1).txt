@@ -52,10 +52,10 @@ end
 function HS8()
 	 gg.clearResults()
 	 gg.setRanges(16384)
-	 gg.searchNumber("hFD 7B BF A9 FD 03 00 91 12 FF FF 97 1F 00 00 71", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	 gg.searchNumber("hE1 03 1F AA E2 03 1F AA 7E A7 54 97 74 22 00 F9", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
 	 gg.searchNumber("", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
 	 gg.getResults(100)
-	 gg.editAll("h20 00 80 D2 C0 03 5F D6 12 FF FF 97 1F 00 00 71", gg.TYPE_BYTE)
+	 gg.editAll("h20 00 80 D2 C0 03 5F D6 7E A7 54 97 74 22 00 F9", gg.TYPE_BYTE)
 	 gg.toast("")
 	 gg.clearResults()
 end
